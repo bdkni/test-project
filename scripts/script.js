@@ -51,8 +51,8 @@ $( document ).ready(function() {
             };
         });
     });
-
-    // Таймер
+});
+// Таймер
     window.addEventListener('load', event => {
         let numberOfMin = 30;  // желаемое время таймера в минутах (30 минут)
         let currentDate = new Date(); // получаем сегодняшнюю дату и время
@@ -81,7 +81,6 @@ $( document ).ready(function() {
         }, 1000);
 
     });
-});
 
 
 
